@@ -1,6 +1,6 @@
 import Image from "next/image";
 import React from "react";
-import logo from "/logo.png";
+// import logo from "/logo.png";
 import Link from "next/link";
 
 const page = () => {
@@ -38,7 +38,7 @@ const page = () => {
         </nav> */}
       </header>
       <section className="flex justify-center gap-x-8 items-center w-full">
-        <div className="w-[610px] flex flex-col items-center  border-2 border-red-300">
+        <div className="w-[610px] flex flex-col items-center ">
           <form className="max-w-[372px]">
             <h2 className="font-semibold  text-4xl text-[#101828] leading-[44px] -tracking-[0.02em] mb-2">
               Sign in
